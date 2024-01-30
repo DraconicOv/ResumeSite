@@ -8,6 +8,9 @@
     color:#042334 !important;
     background-color: currentColor !important;
 }
+.nav-link{
+    display: initial !important;
+}
 .primary-color-1-1{
     color: #F5F1ED !important;
     background-color: currentColor !important;
@@ -281,6 +284,11 @@
     }
 
 }
+@media screen and (max-width: 790px), screen and (max-height: 3940px){
+    .left, .sub-left{
+        visibility: hidden;
+    }
+}
 .rect-box::after{    
     z-index: 1;
     content: '';
@@ -411,6 +419,7 @@
     flex: 1 0 30%;
     margin: 5px;
     max-height:40vh;
+    /* scrollbar-width: 2px; */
     /* width: 100%; */
     aspect-ratio: 1 / 1 ;
     /* justify-content: center; */
@@ -419,8 +428,10 @@
     /* margin-top: 5%; */
     flex-direction: column;
     overflow: scroll;
+    border-radius: 15px;
     display: flex;
 }
+
 .box .content-container {
     color: white;
     display: flex;
