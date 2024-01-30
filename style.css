@@ -12,7 +12,7 @@
     display: initial !important;
 }
 .primary-color-1-1{
-    color: #F5F1ED !important;
+    color: #899697 !important;
     background-color: currentColor !important;
 }
 .secondary-color-0-1{
@@ -180,7 +180,7 @@
     .rect-box h2{
         text-align: start;
         width: 100% !important;
-        font-size: 5rem !important;
+        font-size: 4rem !important;
     }
     .blue-moon{
         visibility: hidden;
@@ -197,34 +197,37 @@
         margin-left: 1% !important;
         padding-top: 2% !important;
         color: white !important;
-        font-size: 1.3rem !important;
+        font-size: 1.1rem !important;
     }
     .rect-box h2{
         text-align: start;
         
         width: 50% !important;
-        font-size: 5rem !important;
+        font-size: 3rem !important;
     }
     .rect-box h1{
         font-size: 8rem !important;
     }
 }
+@media screen and (max-width: 650px) {
+    .landing-section h1{
+        line-height: 15rem;
+        padding-top: 0%;
+    }
+    
+}
 @media screen and (max-width: 614px){
-    .rect-box h3{
-        padding-top: 2% !important;
-        /* color: black; */
-        font-size: 1.3rem !important;
-    }
-    .rect-box h2{
-        text-align: start;
-        width: 50% !important;
-        font-size: 5rem !important;
-    }
+
     .rect-box h1{
         font-size: 7rem !important;
     }
 }
-@media screen and (max-width: 560px){
+@media screen and (max-width:595px) {
+    .nav-link{
+        padding: 0 !important;
+    }
+}
+@media screen and (max-width: 580px){
     .rect-box h3{
         padding-top: 2% !important;
         font-size: 1.3rem !important;
@@ -239,7 +242,7 @@
     }
 }
 
-@media screen and (max-width: 495px){
+@media screen and (max-width: 580px){
     .rect-box h2{
         width: 100% !important;
         font-size: 3rem !important;
@@ -263,9 +266,15 @@
         font-size: medium !important;
     }
 }
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 455px) {
     h1{
         font-size: 5rem !important;
+        line-height: 5rem !important;
+        padding-top: 3% !important;
+    }
+    .right{
+        top: 10rem !important;
+        right: 0rem !important;
     }
     .subtext{
         font-size: 2rem !important;
@@ -274,6 +283,7 @@
     }
     .sub-right{
         right: 4.7rem !important;
+        top: 15.5rem !important;
     }
     h3{
         font-size: 1.4rem !important;
@@ -284,7 +294,7 @@
     }
 
 }
-@media screen and (max-width: 790px), screen and (max-height: 3940px){
+@media screen and (max-width: 645px), screen and (max-height:480px){
     .left, .sub-left{
         visibility: hidden;
     }
