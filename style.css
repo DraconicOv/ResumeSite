@@ -550,9 +550,16 @@ a h3{
     height: 100%;
     z-index: 1;
     position: relative;
+
+    /* width: 100%; */
+}
+.left-moon{
     top: 4rem;
     right: 6rem;
-    /* width: 100%; */
+}
+.right-moon{
+    top: 4rem;
+    right: 6rem;
 }
 section{
     height: 100vh;
