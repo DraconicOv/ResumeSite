@@ -118,7 +118,7 @@
 @media screen and (max-width: 1270px){
     .rect-box h3{
         padding-top: 1%;
-        font-size: 3vh !important;
+        font-size: min(1.4rem, 3vh) !important;
         margin-left: 5% !important;    
     }
     .rect-box h2{
@@ -178,7 +178,7 @@
         color: white !important;
         margin-left: 1% !important;
         width: 100% !important;
-        font-size: 2.5vh !important;
+        font-size: min(1.3rem, 2.5vh) !important;
     }
     .rect-box h2{
         text-align: start;
@@ -203,11 +203,11 @@
         margin-left: 1% !important;
         /* padding-top: 2% !important; */
         color: white !important;
-        font-size: min(1.1rem,2.5vh) !important;
+        font-size: min(1.1rem,2.3vh) !important;
     }
     .rect-box h2{
         text-align: start;
-        
+        margin-bottom: 0rem !important;
         width: 50% !important;
         font-size: 3rem !important;
     }
@@ -236,7 +236,7 @@
 @media screen and (max-width: 580px){
     .rect-box h3{
         /* padding-top: 2% !important; */
-        font-size: 1.3rem !important;
+        font-size: 2vh !important;
     }
     .rect-box h2{
         text-align: start;
@@ -244,7 +244,8 @@
         font-size: 5rem !important;
     }
     .rect-box h1{
-        font-size: 6rem !important ;
+        font-size: 5rem !important ;
+        letter-spacing: 0.5rem !important;
     }
 }
 
@@ -555,7 +556,7 @@ a h3{
 }
 .left-moon{
     top: 4rem;
-    right: 6rem;
+    right: calc(9.5vh + 6rem);
 }
 .right-moon{
     top: 4rem;
