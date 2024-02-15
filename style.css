@@ -16,7 +16,7 @@
     background-color: currentColor !important;
 }
 .secondary-color-0-1{
-    color: #779287!important;
+    color: #b09a5d!important;
     background-color: currentColor !important;
 }
 .secondary-color-1-1{
@@ -42,7 +42,7 @@
     color:transparent;
 }
 .secondary-color-0-0{
-    color: #779287;
+    color: #2db37d;
 }
 .secondary-color-1-0{
     color:#8D0801;
@@ -152,7 +152,7 @@
     }
 }
 
-@media screen and (max-width: 885px){
+@media screen and (max-width: 895px){
     .rect-box h3{
         font-size: 1.18rem !important;
         padding: 0% !important;
