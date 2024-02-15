@@ -215,12 +215,20 @@
         font-size: 8rem !important;
     }
 }
+
+
 @media screen and (max-width: 650px) {
     .landing-section h1{
         line-height: 15rem;
         padding-top: 0%;
     }
     
+}
+
+@media screen and (max-width: 645px), screen and (max-height:480px){
+    .left, .sub-left{
+        visibility: hidden;
+    }
 }
 @media screen and (max-width: 614px){
 
@@ -236,12 +244,13 @@
 @media screen and (max-width: 580px){
     .rect-box h3{
         /* padding-top: 2% !important; */
-        font-size: 2vh !important;
+        font-size: min(2vh, 1rem) !important;
+        width: 100% !important;
     }
     .rect-box h2{
         text-align: start;
         width: 50% !important;
-        font-size: 5rem !important;
+        font-size: 3rem !important;
     }
     .rect-box h1{
         font-size: 5rem !important ;
@@ -249,22 +258,6 @@
     }
 }
 
-@media screen and (max-width: 580px){
-    .rect-box h2{
-        width: 100% !important;
-        font-size: 3rem !important;
-    }
-    .rect-box h3{
-        /* padding-top: 2% !important; */
-        font-size: 1rem !important;
-        width: 100% !important;
-    }
-    .rect-box h1{
-        font-size: 5rem !important ;
-    }
-
-    
-}
 @media screen and (max-width: 475px) {
     .nav-link{
         padding: 0 !important;
@@ -308,11 +301,7 @@
 
     
 }
-@media screen and (max-width: 645px), screen and (max-height:480px){
-    .left, .sub-left{
-        visibility: hidden;
-    }
-}
+
 .rect-box::after{    
     z-index: 1;
     content: '';
