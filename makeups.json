@@ -1,0 +1,114 @@
+{
+    "EA":[
+        {
+            "Title":"EA Makeup 1",
+            "Desc": "Instructions for what to do and such"
+        },
+        {
+            "Title":"EA Makeup 2",
+            "Desc": "Instructions for what to do and such, order does matter"
+        },
+        {
+            "Title":"EA Makeup 3",
+            "Desc": "Instructions for what to do and such, order does matter"
+        }
+    ],
+    "Deep Dive":[
+        {
+            "Title":"Deep Dive Makeup 1",
+            "Desc": "Instructions for what to do and such"
+        },
+        {
+            "Title":"Deep Dive Makeup 2",
+            "Desc": "Instructions for what to do and such, order does matter"
+        },
+        {
+            "Title":"Deep Dive Makeup 3",
+            "Desc": "Instructions for what to do and such, order does matter"
+        }
+    ],
+    "PCE":[
+        {
+            "Title":"PCE Assignment #1",
+            "Desc": "Instructions for what to do"
+        },
+        {
+            "Title":"PCE Assignment #2",
+            "Desc": "Instructions for what to do and such, order does matter"
+        },
+        {
+            "Title":"PCE Assignment #3",
+            "Desc": "Instructions for what to do and such, order does matter"
+        }
+    ],
+    "WXT":[
+        {
+            "Title":"WXT Task #1",
+            "Desc": "Instructions for what to do and such"
+        },
+        {
+            "Title":"WXT Task #2",
+            "Desc": "Instructions for what to do and such, order does matter"
+        },
+        {
+            "Title":"WXT Task #3",
+            "Desc": "Instructions for what to do and such, order does matter"
+        }
+    ],
+    "WOR":[
+        {
+            "Title":"WOR Activity #1",
+            "Desc": "Instructions for what to do and such"
+        },
+        {
+            "Title":"WOR Activity #2",
+            "Desc": "Instructions for what to do and such, order does matter"
+        },
+        {
+            "Title":"WOR Activity #3",
+            "Desc": "Instructions for what to do and such, order does matter"
+        }
+    ],
+    "GEO":[
+        {
+            "Title":"GEO Project #1",
+            "Desc": "Instructions for what to do and such"
+        },
+        {
+            "Title":"GEO Project #2",
+            "Desc": "Instructions for what to do and such, order does matter"
+        },
+        {
+            "Title":"GEO Project #3",
+            "Desc": "Instructions for what to do and such, order does matter"
+        }
+    ],
+    "ARC":[
+        {
+            "Title":"ARC Exercise #1",
+            "Desc": "Instructions for what to do and such"
+        },
+        {
+            "Title":"ARC Exercise #2",
+            "Desc": "Instructions for what to do and such, order does matter"
+        },
+        {
+            "Title":"ARC Exercise #3",
+            "Desc": "Instructions for what to do and such, order does matter"
+        }
+    ],
+    "NAT":[
+        {
+            "Title":"NAT Assignment #1",
+            "Desc": "Instructions for what to do and such"
+        },
+        {
+            "Title":"NAT Assignment #2",
+            "Desc": "Instructions for what to do and such, order does matter"
+        },
+        {
+            "Title":"NAT Assignment #3",
+            "Desc": "Instructions for what to do and such, order does matter"
+        }
+    ]
+}

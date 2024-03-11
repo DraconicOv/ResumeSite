@@ -200,7 +200,7 @@
 }
 @media screen and (max-width: 745px) {
     .landing-section h1{
-        font-size: 8.5rem !important;
+        font-size: min(21vw, 26vh) !important;
     }
     .subtext{
         font-size: 2.8rem !important;
@@ -221,7 +221,7 @@
         font-size: 3rem !important;
     }
     .rect-box h1{
-        font-size: 8rem !important;
+        font-size: min(17vw,18vh) !important;
     }
 }
 
@@ -229,19 +229,19 @@
     .landing-section h1{
         /* line-height: 15rem; */
         /* padding-top: 0% !important; */
-        font-size: 7.7rem !important;
+        font-size: min(19vw, 20vh) !important;
     }   
 }
 
 @media screen and (max-width: 645px), screen and (max-height:480px){
-    .left, .sub-left{
+    .right, .sub-right{
         visibility: hidden;
     }
 }
 @media screen and (max-width: 614px){
 
     .rect-box h1{
-        font-size: 7rem !important;
+        font-size: min(17vw,18vh) !important;
     }
 }
 @media screen and (max-width:595px) {
@@ -258,10 +258,11 @@
     .rect-box h2{
         text-align: start;
         width: 50% !important;
-        font-size: 3rem !important;
+        /* font-size: min(9vh,12vw) !important; */
+        font-size: min(5.4vh, 6.5vw) !important;
     }
     .rect-box h1{
-        font-size: 5rem !important ;
+        font-size: min(5rem,19.1vw) !important;
         letter-spacing: 0.5rem !important;
     }
 }
@@ -271,7 +272,7 @@
         padding: 0 !important;
     }
     a h3{
-        font-size: medium !important;
+        font-size: clamp(1px, 4vw, 5vh) !important;
     }
 }
 @media screen and (max-width: 455px) {
@@ -287,7 +288,6 @@
     .subtext{
         font-size: 2rem !important;
         width: 100% !important;
-        top: 20px !important;
     }
     .sub-right{
         right: 4.7rem !important;
@@ -297,17 +297,20 @@
         font-size: 1.4rem !important;
         color: white !important;
     }
-    .left, .sub-left{
+    .right, .sub-right{
         visibility: hidden;
     }
 
 }
 @media screen and (max-width: 340px) {
     .rect-box h1{
-        font-size: 7vh;
+       font-size: min(17vw,18vh) !important;    
     }
-
     
+}@media screen and (max-height:575px) {
+    .qoute, .left, .sub-left, .sub-right{
+        visibility: hidden !important;
+    }    
 }
 
 .rect-box::after{    
@@ -359,7 +362,7 @@
 .landing-section h1{
     padding-top: 1%;
     font-weight: bold;
-    font-size: 10rem;
+    font-size: min(23vw, 31vh);
     letter-spacing: 1rem;
     /* text-shadow: #000 0px 0px 1px; */
     /* -webkit-font-smoothing: antialiased; */
@@ -400,11 +403,9 @@
 .subtext{
     font-weight: bold;
     z-index: 1;
-    position: absolute;
+    position: relative;
     font-size: 3rem;
     width: 100%;
-    top: 0;
-    transform: translateY(10rem);
 }
 .overlay-text{
     position: absolute !important;
@@ -415,7 +416,7 @@
     -webkit-text-stroke-width: 0.25rem;
     -webkit-text-stroke-color: #F5F1ED;
     outline-offset: 0px;
-    transform: translate(0.0999999rem,-0.0999999rem);
+    /* transform: translate(0.0999999rem,-0.0999999rem); */
 
 }
 .portfolio-header{
